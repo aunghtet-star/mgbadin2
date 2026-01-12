@@ -583,7 +583,7 @@ const App: React.FC = () => {
     { id: 'phases', label: '3 ချပ်အသစ်လုပ်ရန်', icon: 'fa-calendar-days', roles: ['ADMIN'] },
   ].filter(item => item.roles.includes(currentUser.role));
 
-  const appDisplayName = `MgBaDin (${currentUser.role === 'ADMIN' ? 'Admin' : 'User'})`;
+  const appDisplayName = `MgBaDin(2) (${currentUser.role === 'ADMIN' ? 'Admin' : 'User'})`;
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 transition-colors duration-300">
